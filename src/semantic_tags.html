@@ -1,0 +1,65 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="semantic_tags.css">
+    </head>
+    <body bgcolor="#2f1d12">
+        <div class="head">
+            <header>
+                <h1><center>Book Haven</center></h1>
+                <h4><center><i> Every step opens a door to adventure, every shelf whispers stories, and every page invites you to escape into boundless realms of imagination.</i></center></h4> 
+            </header>
+        </div>
+        <nav class="nav"><img class="logo" src="D:\Project_D\semantic-tags\book_logo.jpeg" alt="logo"/>
+            <ul class="nav1">
+                <li><a href="">Rom-Com</a></li>
+                <li><a href="">Mystery</a></li>
+                <li><a href="">Historical Fiction</a></li>
+                <li><a href="">Crime Thriller</a></li>
+                <li><a href="">Horror</a></li>
+                <li><a href="">Young Adult(YA)</a></li>
+                <li><a href="">Science Fiction</a></li>
+                <li><a href="">Poetry</a></li>
+                <li><a href="">Self-Help</a></li>
+            </ul>
+        </nav>
+        <div class="menu_class" id="menu_id">
+            <a href="javascript:void(0)" class="close" onclick="closeMenu()">&times;</a>
+            <a href="#">You</a><br>
+            <a href="#">Cart</a><br>
+            <a href="#">Wishlist</a><br>
+            <a href="#">New Yorks Times Bestseller</a><br>
+            <a href="#">Popular Titles</a><br>
+            <a href="#">Notifications</a><br>
+            <a href="#">Search Titles</a><br>
+            <a href="#">Services</a><br>
+            <a href="#">About Us</a><br>
+            <a href="#">Contact us</a><br>
+        </div>
+        <div id="menu_close"><span style="font-size:25px; cursor:pointer; color:bisque;" onclick="openMenu()">&#9776; Menu</span></div>
+        <script>
+        function openMenu(){
+            document.getElementById("menu_id").style.display="block";
+            document.getElementById("menu_id").style.width="200px";
+            document.getElementById("menu_close").style.display="none";
+        }
+        function closeMenu(){
+            document.getElementById("menu_id").style.width="0px";
+            document.getElementById("menu_id").style.display="none";
+            document.getElementById("menu_close").style.display="block";
+        }
+        </script>
+        <main>
+            <article>
+                <div class="main"> 
+                    <div class="maini"><img class="mainimg" src="D:\Project_D\semantic-tags\main_img.jpeg" alt="fashion"/></div>
+                    <p><div class="mainc"> Welcome to Book Haven, an enchanting retreat nestled within the heart of the city. As you step through our doors, you're transported into a world where the scent of well-loved pages mingles with the promise of countless adventures. Our shelves are a treasure trove, spanning genres from gripping mysteries to heartwarming romances, epic fantasies to insightful biographies. Whether you seek to lose yourself in the depths of imagination or delve into the annals of history, Book Haven is your sanctuary. With cozy reading nooks tucked away amidst towering bookcases and friendly staff ready to guide you on literary journeys, each visit promises a new discovery. Embrace the magic of storytelling, ignite your imagination, and make Book Haven your haven.</div></p>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <p>Contact us:+91 9087658486</p>
+            <a href="mailto:angelinsuguna05@gmail.com" style="color:bisque">bookhaven@gmail.com</a>
+        </footer>
+    </body>
+</html>

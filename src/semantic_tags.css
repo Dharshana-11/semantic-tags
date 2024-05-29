@@ -1,0 +1,91 @@
+.nav1{
+    text-decoration: none;
+    display: flex;
+    gap: 55px;
+    list-style: none;
+}
+.nav1 li a {
+    color:bisque;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav1 li a:hover {
+    color: black;
+}
+.nav{
+    display:flex;
+    position: sticky;
+    left:0;
+    cursor: pointer;
+    background-color:#74563A;
+}
+.logo{
+    display:flex;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+    padding-top: 2px;
+}
+.menu_class{
+    display:none;
+    height: 85%;
+    background-color:#74563A;
+    width: 0;
+    top: 175;
+    left: 8;
+    padding-top: 20px;
+}
+.menu_class .close{ 
+    top: 0; 
+    right: 25px;
+    font-size: 36px;
+    margin-left: 120px;
+}
+.menu_class a{
+    text-decoration: none;
+    padding: 1px 30px;
+    font-size:20px;
+    color:  bisque;
+    display: block;
+}
+.mainimg{
+    width: 400px;
+    height: 500px;
+    float:right;
+    position: absolute; 
+    top: 200;
+    border-radius: 20%;
+    right: 50;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+}
+.mainc{
+    position: absolute;
+    top:250;
+    left:250;
+    text-align: justify;
+    right:500;
+    line-height: 30px;
+    font-style: italic;
+    color:bisque;
+    font-size:18px;
+}
+footer{
+    display:block;
+    position: absolute;
+    top:700;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+header{
+    color: bisque;
+    font-family: 'Franklin Gothic Medium';
+}
+footer{
+    color:bisque;
+}
